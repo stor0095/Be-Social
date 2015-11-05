@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59738E381BEC2219005EA3AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59738E371BEC2219005EA3AB /* AppDelegate.swift */; };
+		59738E3A1BEC2219005EA3AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59738E391BEC2219005EA3AB /* ViewController.swift */; };
+		59738E3D1BEC2219005EA3AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59738E3B1BEC2219005EA3AB /* Main.storyboard */; };
+		59738E3F1BEC2219005EA3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59738E3E1BEC2219005EA3AB /* Assets.xcassets */; };
+		59738E421BEC2219005EA3AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59738E401BEC2219005EA3AB /* LaunchScreen.storyboard */; };
+		59738E4D1BEC221A005EA3AB /* Be_SocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59738E4C1BEC221A005EA3AB /* Be_SocialTests.swift */; };
+		59738E581BEC221A005EA3AB /* Be_SocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59738E571BEC221A005EA3AB /* Be_SocialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59738E491BEC221A005EA3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59738E2C1BEC2219005EA3AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59738E331BEC2219005EA3AB;
+			remoteInfo = "Be Social";
+		};
+		59738E541BEC221A005EA3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59738E2C1BEC2219005EA3AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59738E331BEC2219005EA3AB;
+			remoteInfo = "Be Social";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59738E341BEC2219005EA3AB /* Be Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Be Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59738E371BEC2219005EA3AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59738E391BEC2219005EA3AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59738E3C1BEC2219005EA3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59738E3E1BEC2219005EA3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59738E411BEC2219005EA3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59738E431BEC2219005EA3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59738E481BEC221A005EA3AB /* Be SocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Be SocialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59738E4C1BEC221A005EA3AB /* Be_SocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Be_SocialTests.swift; sourceTree = "<group>"; };
+		59738E4E1BEC221A005EA3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59738E531BEC221A005EA3AB /* Be SocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Be SocialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59738E571BEC221A005EA3AB /* Be_SocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Be_SocialUITests.swift; sourceTree = "<group>"; };
+		59738E591BEC221A005EA3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59738E311BEC2219005EA3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59738E451BEC221A005EA3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59738E501BEC221A005EA3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59738E2B1BEC2219005EA3AB = {
+			isa = PBXGroup;
+			children = (
+				59738E361BEC2219005EA3AB /* Be Social */,
+				59738E4B1BEC221A005EA3AB /* Be SocialTests */,
+				59738E561BEC221A005EA3AB /* Be SocialUITests */,
+				59738E351BEC2219005EA3AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59738E351BEC2219005EA3AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59738E341BEC2219005EA3AB /* Be Social.app */,
+				59738E481BEC221A005EA3AB /* Be SocialTests.xctest */,
+				59738E531BEC221A005EA3AB /* Be SocialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59738E361BEC2219005EA3AB /* Be Social */ = {
+			isa = PBXGroup;
+			children = (
+				59738E371BEC2219005EA3AB /* AppDelegate.swift */,
+				59738E391BEC2219005EA3AB /* ViewController.swift */,
+				59738E3B1BEC2219005EA3AB /* Main.storyboard */,
+				59738E3E1BEC2219005EA3AB /* Assets.xcassets */,
+				59738E401BEC2219005EA3AB /* LaunchScreen.storyboard */,
+				59738E431BEC2219005EA3AB /* Info.plist */,
+			);
+			path = "Be Social";
+			sourceTree = "<group>";
+		};
+		59738E4B1BEC221A005EA3AB /* Be SocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				59738E4C1BEC221A005EA3AB /* Be_SocialTests.swift */,
+				59738E4E1BEC221A005EA3AB /* Info.plist */,
+			);
+			path = "Be SocialTests";
+			sourceTree = "<group>";
+		};
+		59738E561BEC221A005EA3AB /* Be SocialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59738E571BEC221A005EA3AB /* Be_SocialUITests.swift */,
+				59738E591BEC221A005EA3AB /* Info.plist */,
+			);
+			path = "Be SocialUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59738E331BEC2219005EA3AB /* Be Social */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59738E5C1BEC221A005EA3AB /* Build configuration list for PBXNativeTarget "Be Social" */;
+			buildPhases = (
+				59738E301BEC2219005EA3AB /* Sources */,
+				59738E311BEC2219005EA3AB /* Frameworks */,
+				59738E321BEC2219005EA3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Be Social";
+			productName = "Be Social";
+			productReference = 59738E341BEC2219005EA3AB /* Be Social.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59738E471BEC221A005EA3AB /* Be SocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59738E5F1BEC221A005EA3AB /* Build configuration list for PBXNativeTarget "Be SocialTests" */;
+			buildPhases = (
+				59738E441BEC221A005EA3AB /* Sources */,
+				59738E451BEC221A005EA3AB /* Frameworks */,
+				59738E461BEC221A005EA3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59738E4A1BEC221A005EA3AB /* PBXTargetDependency */,
+			);
+			name = "Be SocialTests";
+			productName = "Be SocialTests";
+			productReference = 59738E481BEC221A005EA3AB /* Be SocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59738E521BEC221A005EA3AB /* Be SocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59738E621BEC221A005EA3AB /* Build configuration list for PBXNativeTarget "Be SocialUITests" */;
+			buildPhases = (
+				59738E4F1BEC221A005EA3AB /* Sources */,
+				59738E501BEC221A005EA3AB /* Frameworks */,
+				59738E511BEC221A005EA3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59738E551BEC221A005EA3AB /* PBXTargetDependency */,
+			);
+			name = "Be SocialUITests";
+			productName = "Be SocialUITests";
+			productReference = 59738E531BEC221A005EA3AB /* Be SocialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59738E2C1BEC2219005EA3AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "stor0095@algonquinlive.com";
+				TargetAttributes = {
+					59738E331BEC2219005EA3AB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					59738E471BEC221A005EA3AB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 59738E331BEC2219005EA3AB;
+					};
+					59738E521BEC221A005EA3AB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 59738E331BEC2219005EA3AB;
+					};
+				};
+			};
+			buildConfigurationList = 59738E2F1BEC2219005EA3AB /* Build configuration list for PBXProject "Be Social" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59738E2B1BEC2219005EA3AB;
+			productRefGroup = 59738E351BEC2219005EA3AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59738E331BEC2219005EA3AB /* Be Social */,
+				59738E471BEC221A005EA3AB /* Be SocialTests */,
+				59738E521BEC221A005EA3AB /* Be SocialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59738E321BEC2219005EA3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59738E421BEC2219005EA3AB /* LaunchScreen.storyboard in Resources */,
+				59738E3F1BEC2219005EA3AB /* Assets.xcassets in Resources */,
+				59738E3D1BEC2219005EA3AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59738E461BEC221A005EA3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59738E511BEC221A005EA3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59738E301BEC2219005EA3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59738E3A1BEC2219005EA3AB /* ViewController.swift in Sources */,
+				59738E381BEC2219005EA3AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59738E441BEC221A005EA3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59738E4D1BEC221A005EA3AB /* Be_SocialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59738E4F1BEC221A005EA3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59738E581BEC221A005EA3AB /* Be_SocialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59738E4A1BEC221A005EA3AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59738E331BEC2219005EA3AB /* Be Social */;
+			targetProxy = 59738E491BEC221A005EA3AB /* PBXContainerItemProxy */;
+		};
+		59738E551BEC221A005EA3AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59738E331BEC2219005EA3AB /* Be Social */;
+			targetProxy = 59738E541BEC221A005EA3AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59738E3B1BEC2219005EA3AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59738E3C1BEC2219005EA3AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59738E401BEC2219005EA3AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59738E411BEC2219005EA3AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59738E5A1BEC221A005EA3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59738E5B1BEC221A005EA3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59738E5D1BEC221A005EA3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Be Social/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquincollege.stor0095.Be-Social";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		59738E5E1BEC221A005EA3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Be Social/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquincollege.stor0095.Be-Social";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		59738E601BEC221A005EA3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Be SocialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquincollege.stor0095.Be-SocialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Be Social.app/Be Social";
+			};
+			name = Debug;
+		};
+		59738E611BEC221A005EA3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Be SocialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquincollege.stor0095.Be-SocialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Be Social.app/Be Social";
+			};
+			name = Release;
+		};
+		59738E631BEC221A005EA3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Be SocialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquincollege.stor0095.Be-SocialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Be Social";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		59738E641BEC221A005EA3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Be SocialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquincollege.stor0095.Be-SocialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Be Social";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59738E2F1BEC2219005EA3AB /* Build configuration list for PBXProject "Be Social" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59738E5A1BEC221A005EA3AB /* Debug */,
+				59738E5B1BEC221A005EA3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59738E5C1BEC221A005EA3AB /* Build configuration list for PBXNativeTarget "Be Social" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59738E5D1BEC221A005EA3AB /* Debug */,
+				59738E5E1BEC221A005EA3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		59738E5F1BEC221A005EA3AB /* Build configuration list for PBXNativeTarget "Be SocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59738E601BEC221A005EA3AB /* Debug */,
+				59738E611BEC221A005EA3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		59738E621BEC221A005EA3AB /* Build configuration list for PBXNativeTarget "Be SocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59738E631BEC221A005EA3AB /* Debug */,
+				59738E641BEC221A005EA3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59738E2C1BEC2219005EA3AB /* Project object */;
+}
