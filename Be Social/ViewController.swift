@@ -11,6 +11,8 @@ import iAd
 
 class ViewController: UIViewController, ADBannerViewDelegate {
     
+    //// Outlets /////
+     
     @IBOutlet var firstLabel: UILabel!
     @IBOutlet var tapButtonLabel: UILabel!
     @IBOutlet var firstButton: UIButton!
@@ -18,8 +20,9 @@ class ViewController: UIViewController, ADBannerViewDelegate {
     @IBOutlet var adBanner1: ADBannerView!
     
     
-  
-    // http://www.ioscreator.com/tutorials/display-an-alert-view-in-ios8-with-swift //
+     
+    /////// Alert Button Function /////
+    //http://www.ioscreator.com/tutorials/display-an-alert-view-in-ios8-with-swift //
     
     @IBAction func alertButton(sender: AnyObject) {
         
@@ -31,7 +34,9 @@ class ViewController: UIViewController, ADBannerViewDelegate {
     }
     
    
-     func bannerViewWillLoadAd(banner: ADBannerView!) {
+    ///// Advertisment Controls /////
+     
+    func bannerViewWillLoadAd(banner: ADBannerView!) {
      }
      
     func bannerViewActionShouldBegin(banner: ADBannerView!, willLeaveApplication willLeave: Bool) -> Bool {
@@ -40,18 +45,17 @@ class ViewController: UIViewController, ADBannerViewDelegate {
     
     func bannerViewDidLoadAd(banner: ADBannerView!) {
         adBanner.hidden = false
-        adBanner1.hidden = false
         }
      
      func bannerView(banner: ADBannerView!, didFailToReceiveAdWithError error: NSError!) {
           NSLog("Error! Ad did not load.")
      }
 
+     ////////////////////////////
+     
     override func viewDidLoad() {
         adBanner.hidden = true
-        adBanner1.hidden = true
         adBanner.delegate = self
-        adBanner1.delegate = self
         self.canDisplayBannerAds = true
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
