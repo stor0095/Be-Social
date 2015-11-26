@@ -1,25 +1,108 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5kK-1k-N7v">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Be Social-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Be_Social" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="21i-oc-fRe">
+                                <rect key="frame" x="160" y="320" width="55" height="53"/>
+                                <state key="normal" image="decision-xxl copy.png"/>
+                                <connections>
+                                    <action selector="alertButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I29-Nu-cbd"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tap the button below to find out how!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TQn-xM-gQ0">
+                                <rect key="frame" x="39" y="191" width="296" height="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Want to be more social?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5pL-Mm-4ap">
+                                <rect key="frame" x="66" y="162" width="242" height="35"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Snh-1B-Wr6">
+                                <rect key="frame" x="27" y="591" width="320" height="50"/>
+                            </adBannerView>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="mUw-U7-z5o">
+                                <rect key="frame" x="27" y="64" width="320" height="50"/>
+                            </adBannerView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.53269415154482302" blue="0.73232323232323226" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="21i-oc-fRe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="9Ar-2T-bqk"/>
+                            <constraint firstItem="mUw-U7-z5o" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="CPO-EI-L1h"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Snh-1B-Wr6" secondAttribute="bottom" constant="10" id="Dee-c4-cwG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Snh-1B-Wr6" secondAttribute="trailing" constant="8" id="JTm-Sy-kgt"/>
+                            <constraint firstItem="Snh-1B-Wr6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="Lfk-Nv-r1h"/>
+                            <constraint firstItem="TQn-xM-gQ0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="19" id="LyI-Ah-aq3"/>
+                            <constraint firstItem="TQn-xM-gQ0" firstAttribute="top" secondItem="5pL-Mm-4ap" secondAttribute="bottom" constant="5" id="ToL-YE-OKE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="21i-oc-fRe" secondAttribute="trailing" constant="100" id="U8O-5M-gwQ"/>
+                            <constraint firstItem="21i-oc-fRe" firstAttribute="top" secondItem="TQn-xM-gQ0" secondAttribute="bottom" constant="94" id="XoT-Eh-oh8"/>
+                            <constraint firstItem="mUw-U7-z5o" firstAttribute="leading" secondItem="Snh-1B-Wr6" secondAttribute="leading" id="b2e-eM-SQa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5pL-Mm-4ap" secondAttribute="trailing" constant="47" id="btQ-N0-JpW"/>
+                            <constraint firstItem="5pL-Mm-4ap" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mVh-WF-2sw"/>
+                            <constraint firstItem="5pL-Mm-4ap" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="98" id="pLX-SG-l0b"/>
+                            <constraint firstItem="5pL-Mm-4ap" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="46" id="pQY-Ex-x7w"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TQn-xM-gQ0" secondAttribute="trailing" constant="20" id="qmf-SQ-kUM"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Be Social" id="llC-RA-bO3"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="adBanner" destination="Snh-1B-Wr6" id="5zJ-sw-s3s"/>
+                        <outlet property="adBanner1" destination="mUw-U7-z5o" id="C2v-bg-hSA"/>
+                        <outlet property="firstButton" destination="21i-oc-fRe" id="KLH-0X-eSv"/>
+                        <outlet property="firstLabel" destination="5pL-Mm-4ap" id="UjE-e4-eM3"/>
+                        <outlet property="tapButtonLabel" destination="TQn-xM-gQ0" id="iYs-3c-JGR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1211.5" y="380.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="feJ-yl-Hr1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5kK-1k-N7v" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="un7-i7-ICW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.53269415149999999" blue="0.73232323229999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ODG-kK-O1F"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7qr-kB-Phe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="399" y="380"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="decision-xxl copy.png" width="30" height="30"/>
+    </resources>
 </document>

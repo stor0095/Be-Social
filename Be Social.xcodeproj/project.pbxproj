@@ -14,6 +14,8 @@
 		59738E421BEC2219005EA3AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59738E401BEC2219005EA3AB /* LaunchScreen.storyboard */; };
 		59738E4D1BEC221A005EA3AB /* Be_SocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59738E4C1BEC221A005EA3AB /* Be_SocialTests.swift */; };
 		59738E581BEC221A005EA3AB /* Be_SocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59738E571BEC221A005EA3AB /* Be_SocialUITests.swift */; };
+		59738E661BEC30C5005EA3AB /* decision-xxl copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 59738E651BEC30C5005EA3AB /* decision-xxl copy.png */; };
+		59738E681BEC4A79005EA3AB /* refresh-xxl copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 59738E671BEC4A79005EA3AB /* refresh-xxl copy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		59738E341BEC2219005EA3AB /* Be Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Be Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59738E371BEC2219005EA3AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		59738E391BEC2219005EA3AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59738E391BEC2219005EA3AB /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 5; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 4; wrapsLines = 0; };
 		59738E3C1BEC2219005EA3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59738E3E1BEC2219005EA3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59738E411BEC2219005EA3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		59738E531BEC221A005EA3AB /* Be SocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Be SocialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59738E571BEC221A005EA3AB /* Be_SocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Be_SocialUITests.swift; sourceTree = "<group>"; };
 		59738E591BEC221A005EA3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59738E651BEC30C5005EA3AB /* decision-xxl copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "decision-xxl copy.png"; path = "../Go Mingle Photos/decision-xxl copy.png"; sourceTree = "<group>"; };
+		59738E671BEC4A79005EA3AB /* refresh-xxl copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "refresh-xxl copy.png"; path = "../Go Mingle Photos/refresh-xxl copy.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				59738E4B1BEC221A005EA3AB /* Be SocialTests */,
 				59738E561BEC221A005EA3AB /* Be SocialUITests */,
 				59738E351BEC2219005EA3AB /* Products */,
+				59738E651BEC30C5005EA3AB /* decision-xxl copy.png */,
+				59738E671BEC4A79005EA3AB /* refresh-xxl copy.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -193,6 +199,7 @@
 				TargetAttributes = {
 					59738E331BEC2219005EA3AB = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = PG63BAQE58;
 					};
 					59738E471BEC221A005EA3AB = {
 						CreatedOnToolsVersion = 7.1;
@@ -231,7 +238,9 @@
 			files = (
 				59738E421BEC2219005EA3AB /* LaunchScreen.storyboard in Resources */,
 				59738E3F1BEC2219005EA3AB /* Assets.xcassets in Resources */,
+				59738E661BEC30C5005EA3AB /* decision-xxl copy.png in Resources */,
 				59738E3D1BEC2219005EA3AB /* Main.storyboard in Resources */,
+				59738E681BEC4A79005EA3AB /* refresh-xxl copy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +408,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Be Social/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquincollege.stor0095.Be-Social";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,7 +421,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Be Social/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquincollege.stor0095.Be-Social";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +497,7 @@
 				59738E5E1BEC221A005EA3AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59738E5F1BEC221A005EA3AB /* Build configuration list for PBXNativeTarget "Be SocialTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +506,7 @@
 				59738E611BEC221A005EA3AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59738E621BEC221A005EA3AB /* Build configuration list for PBXNativeTarget "Be SocialUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +515,7 @@
 				59738E641BEC221A005EA3AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
